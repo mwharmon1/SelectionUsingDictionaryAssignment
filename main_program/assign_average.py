@@ -12,7 +12,10 @@ def switch_average(key_to_find):
     :param key_to_find: key that is passed in
     :return: value of key if found, if not found return message
     """
-    pass
+    return {
+        'A': 100,
+    }[key_to_find]
+    # pass
 
 
 if __name__ == '__main__':
