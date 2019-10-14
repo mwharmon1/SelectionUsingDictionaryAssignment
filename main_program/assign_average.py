@@ -17,6 +17,7 @@ def switch_average(key_to_find):
         'B': 89,
         'C': 79,
         'D': 69,
+        'F': 59,
     }[key_to_find]
     # pass
 
