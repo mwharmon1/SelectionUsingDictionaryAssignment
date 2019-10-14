@@ -15,11 +15,11 @@ def switch_average(key_to_find):
     key_not_found = 'Value not found for ' + str(key_to_find) + '.'
     try:
         return {
-            'A': 100,
-            'B': 89,
-            'C': 79,
-            'D': 69,
-            'F': 59,
+            'A': 90,
+            'B': 80,
+            'C': 70,
+            'D': 60,
+            'F': 0,
         }[key_to_find]
     except KeyError:
         return key_not_found
